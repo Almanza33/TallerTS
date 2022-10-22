@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TallerTS</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "edicion.css">
+</head>
+<body>
+  <div>
+    <div id = "titulo">       
+        <h2> <img src = "tv-television-icon-logo-design-vector-template-illustration-172886829.jpg" id = "imagen"> TV Series</h2>
+    </div>
+
+    <div class = "cuerpo">
+      <table class="table" id="tableId">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Channel</th>
+              <th scope="col">Season</th>
+            </tr>
+          </thead>
+          <tbody id = "series_id">
+          </tbody>
+      </table>
+    
+      <div class="card", id = #card_1 style="width: 18rem;">
+        <img id = "imagenCard" src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" id="tituloCarta">Card title</h5>
+          <p class="card-text" id ="contenidoCarta">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-link" id="linkCarta">Card link</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div id = "promedio">
+      <p>
+          Seasons average:
+      </p>
+      <p id = "avgSeasons_id">
+      </p>
+  </div>
+
+    <script type="module" src="scripts/serie.js" ></script>
+    <script type="module" src="scripts/data.js" ></script>
+    <script type="module" src="scripts/main.js"></script>
+  </div>
+</body>
+</html>

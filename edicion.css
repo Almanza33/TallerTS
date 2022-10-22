@@ -1,0 +1,44 @@
+body {
+    margin: 5px;
+}
+
+#titulo{
+    background-color: #1f98c4;
+}
+
+h2 {
+    padding: 6px;
+    color: white;
+    font: helvetica;
+}
+
+.table {
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#imagen {
+    width: 5%;
+    height: 5%;
+}
+
+p {
+    display: inline-block;
+}
+
+#promedio {
+    background-color: #f2f2f2f1;
+    width: 50%;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.cuerpo {
+    display: flex;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 40px;
+}
